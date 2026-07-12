@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/driven-pile/page": "app/driven-pile/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/bored-pile/page": "app/bored-pile/page.js",
+  "/dry-process/page": "app/dry-process/page.js",
+  "/pile-testing/page": "app/pile-testing/page.js",
+  "/micropile/page": "app/micropile/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/page": "app/page.js",
+  "/wet-process/page": "app/wet-process/page.js"
+}
