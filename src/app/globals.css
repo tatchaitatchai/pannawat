@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  /* โทนสีหลัก: น้ำเงินเข้มไฮเทค + ฟ้า cyan เรืองแสง */
+  --color-ink-950: #040914;
+  --color-ink-900: #0a1428;
+  --color-ink-800: #10203f;
+  --color-ink-700: #1a3059;
+  --color-accent-300: #67e8f9;
+  --color-accent-400: #22d3ee;
+  --color-accent-500: #06b6d4;
+  --color-accent-600: #0891b2;
+
+  --font-sans: var(--font-thai), ui-sans-serif, system-ui, sans-serif;
+
+  --animate-fade-up: fade-up 0.7s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+/* เส้นกริดจางๆ สไตล์ไฮเทค ใช้กับพื้นหลังส่วนมืด */
+.tech-grid {
+  background-image:
+    linear-gradient(to right, rgb(34 211 238 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(34 211 238 / 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+/* แสงเรือง cyan ด้านหลังองค์ประกอบเด่น */
+.glow-accent {
+  box-shadow: 0 0 60px -12px rgb(34 211 238 / 0.45);
+}
